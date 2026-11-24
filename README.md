@@ -9,7 +9,11 @@ On-device speaker diarization returns time intervals for anonymous speakers in r
 
 Based on [Speaker Diarization Community-1](https://huggingface.co/pyannote/speaker-diarization-community-1).
 
-**Demo recording:** reserved for a post-release recording.
+**Demo recording:**
+
+https://github.com/user-attachments/assets/6b8659c3-9732-41a0-87a9-5ce4a49ff477
+
+Meeting excerpt from the [AMI Meeting Corpus](https://groups.inf.ed.ac.uk/ami/) (AMI Consortium, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)); trimmed and edited for this walkthrough.
 
 ## 1. Install
 
