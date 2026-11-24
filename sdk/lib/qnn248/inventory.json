@@ -1,0 +1,153 @@
+{
+  "qnn": "2.48.0.260626",
+  "source": "Qualcomm QNN SDK 2.48.0.260626",
+  "files": [
+    {
+      "source": "lib/aarch64-oe-linux-gcc11.2/libQnnHtp.so",
+      "path": "host/libQnnHtp.so",
+      "bytes": 4398216,
+      "sha256": "e39833db75eb779a966fea65f835c32bcb2cfee4e87c41db8bbffab2f5a9a748",
+      "elf_dynamic": [
+        "0x0000000000000001 (NEEDED)             Shared library: [libstdc++.so.6]",
+        "0x0000000000000001 (NEEDED)             Shared library: [libm.so.6]",
+        "0x0000000000000001 (NEEDED)             Shared library: [libgcc_s.so.1]",
+        "0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]",
+        "0x0000000000000001 (NEEDED)             Shared library: [ld-linux-aarch64.so.1]",
+        "0x000000000000000e (SONAME)             Library soname: [libQnnHtp.so]",
+        "0x000000000000000f (RPATH)              Library rpath: [$ORIGIN]"
+      ]
+    },
+    {
+      "source": "lib/aarch64-oe-linux-gcc11.2/libQnnSystem.so",
+      "path": "host/libQnnSystem.so",
+      "bytes": 5455128,
+      "sha256": "961c456c791786217f5cd298fb983f1569c5ee3e6e2e21e0bea07ba6dfc4f78d",
+      "elf_dynamic": [
+        "0x0000000000000001 (NEEDED)             Shared library: [libstdc++.so.6]",
+        "0x0000000000000001 (NEEDED)             Shared library: [libatomic.so.1]",
+        "0x0000000000000001 (NEEDED)             Shared library: [libm.so.6]",
+        "0x0000000000000001 (NEEDED)             Shared library: [libgcc_s.so.1]",
+        "0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]",
+        "0x0000000000000001 (NEEDED)             Shared library: [ld-linux-aarch64.so.1]",
+        "0x000000000000000e (SONAME)             Library soname: [libQnnSystem.so]",
+        "0x000000000000000f (RPATH)              Library rpath: [$ORIGIN]"
+      ]
+    },
+    {
+      "source": "lib/aarch64-oe-linux-gcc11.2/libQnnHtpV68Stub.so",
+      "path": "host/libQnnHtpV68Stub.so",
+      "bytes": 477256,
+      "sha256": "4d12dc9715e3cf59055eb8c93a005a8b62fd78618a9677e3f0609e689d373296",
+      "elf_dynamic": [
+        "0x0000000000000001 (NEEDED)             Shared library: [libstdc++.so.6]",
+        "0x0000000000000001 (NEEDED)             Shared library: [libcdsprpc.so]",
+        "0x0000000000000001 (NEEDED)             Shared library: [libgcc_s.so.1]",
+        "0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]",
+        "0x0000000000000001 (NEEDED)             Shared library: [ld-linux-aarch64.so.1]",
+        "0x000000000000000e (SONAME)             Library soname: [libQnnHtpV68Stub.so]",
+        "0x000000000000000f (RPATH)              Library rpath: [$ORIGIN]"
+      ]
+    },
+    {
+      "source": "lib/aarch64-oe-linux-gcc11.2/libQnnHtpV73Stub.so",
+      "path": "host/libQnnHtpV73Stub.so",
+      "bytes": 485448,
+      "sha256": "1397c6720c1c680e99675ac1f82bb7d2f5a3ce06751affd9be91dbd07bad8aa4",
+      "elf_dynamic": [
+        "0x0000000000000001 (NEEDED)             Shared library: [libstdc++.so.6]",
+        "0x0000000000000001 (NEEDED)             Shared library: [libcdsprpc.so]",
+        "0x0000000000000001 (NEEDED)             Shared library: [libgcc_s.so.1]",
+        "0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]",
+        "0x0000000000000001 (NEEDED)             Shared library: [ld-linux-aarch64.so.1]",
+        "0x000000000000000e (SONAME)             Library soname: [libQnnHtpV73Stub.so]",
+        "0x000000000000000f (RPATH)              Library rpath: [$ORIGIN]"
+      ]
+    },
+    {
+      "source": "lib/aarch64-oe-linux-gcc11.2/libQnnHtpV75Stub.so",
+      "path": "host/libQnnHtpV75Stub.so",
+      "bytes": 485448,
+      "sha256": "cebb3ddeee36e52b682fe9a58a7d0d7a32a4834767834a1192551a276016f983",
+      "elf_dynamic": [
+        "0x0000000000000001 (NEEDED)             Shared library: [libstdc++.so.6]",
+        "0x0000000000000001 (NEEDED)             Shared library: [libcdsprpc.so]",
+        "0x0000000000000001 (NEEDED)             Shared library: [libgcc_s.so.1]",
+        "0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]",
+        "0x0000000000000001 (NEEDED)             Shared library: [ld-linux-aarch64.so.1]",
+        "0x000000000000000e (SONAME)             Library soname: [libQnnHtpV75Stub.so]",
+        "0x000000000000000f (RPATH)              Library rpath: [$ORIGIN]"
+      ]
+    },
+    {
+      "source": "lib/aarch64-oe-linux-gcc11.2/libQnnHtpV81Stub.so",
+      "path": "host/libQnnHtpV81Stub.so",
+      "bytes": 501832,
+      "sha256": "9e6ef721699de2a65755d86471a595e1a3d413167b5174379f081b654ce1667c",
+      "elf_dynamic": [
+        "0x0000000000000001 (NEEDED)             Shared library: [libstdc++.so.6]",
+        "0x0000000000000001 (NEEDED)             Shared library: [libcdsprpc.so]",
+        "0x0000000000000001 (NEEDED)             Shared library: [libgcc_s.so.1]",
+        "0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]",
+        "0x0000000000000001 (NEEDED)             Shared library: [ld-linux-aarch64.so.1]",
+        "0x000000000000000e (SONAME)             Library soname: [libQnnHtpV81Stub.so]",
+        "0x000000000000000f (RPATH)              Library rpath: [$ORIGIN]"
+      ]
+    },
+    {
+      "source": "lib/hexagon-v68/unsigned/libQnnHtpV68Skel.so",
+      "path": "dsp/v68/libQnnHtpV68Skel.so",
+      "bytes": 10240924,
+      "sha256": "c479454dc21dc1ee2995aaf922b37882684306f864259ea3c582aa2cfb2f81ca",
+      "elf_dynamic": [
+        "0x00000001 (NEEDED)                     Shared library: [libc++.so.1]",
+        "0x00000001 (NEEDED)                     Shared library: [libc++abi.so.1]",
+        "0x0000000e (SONAME)                     Library soname: [libQnnHtpV68Skel.so]"
+      ]
+    },
+    {
+      "source": "lib/hexagon-v73/unsigned/libQnnHtpV73Skel.so",
+      "path": "dsp/v73/libQnnHtpV73Skel.so",
+      "bytes": 11531512,
+      "sha256": "561d69a9cd131918cb8e0a0e34aafd0e94b3571b10317b0ee478dd137c74bc8c",
+      "elf_dynamic": [
+        "0x00000001 (NEEDED)                     Shared library: [libc++.so.1]",
+        "0x00000001 (NEEDED)                     Shared library: [libc++abi.so.1]",
+        "0x0000000e (SONAME)                     Library soname: [libQnnHtpV73Skel.so]"
+      ]
+    },
+    {
+      "source": "lib/hexagon-v75/unsigned/libQnnHtpV75Skel.so",
+      "path": "dsp/v75/libQnnHtpV75Skel.so",
+      "bytes": 11535612,
+      "sha256": "cd7a66b593e931cb542da2551e245dad22fdd73bb6caa7d6e2dd818f9aaa55dd",
+      "elf_dynamic": [
+        "0x00000001 (NEEDED)                     Shared library: [libc++.so.1]",
+        "0x00000001 (NEEDED)                     Shared library: [libc++abi.so.1]",
+        "0x0000000e (SONAME)                     Library soname: [libQnnHtpV75Skel.so]"
+      ]
+    },
+    {
+      "source": "lib/hexagon-v81/unsigned/libQnnHtpV81Skel.so",
+      "path": "dsp/v81/libQnnHtpV81Skel.so",
+      "bytes": 12610736,
+      "sha256": "87e6463b4b4441eedb1b2ae889443510249eae4d6533278d3a5c798b8eea25d1",
+      "elf_dynamic": [
+        "0x0000000e (SONAME)                     Library soname: [libQnnHtpV81Skel.so]"
+      ]
+    },
+    {
+      "source": "lib/aarch64-oe-linux-gcc11.2/libQnnHtpNetRunExtensions.so",
+      "path": "host/libQnnHtpNetRunExtensions.so",
+      "bytes": 858208,
+      "sha256": "b63b896fb2096b496e37bc4f90bf5eae7142a12257beb7437df0203ece873939",
+      "elf_dynamic": [
+        "0x0000000000000001 (NEEDED)             Shared library: [libstdc++.so.6]",
+        "0x0000000000000001 (NEEDED)             Shared library: [libgcc_s.so.1]",
+        "0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]",
+        "0x0000000000000001 (NEEDED)             Shared library: [ld-linux-aarch64.so.1]",
+        "0x000000000000000e (SONAME)             Library soname: [libQnnHtpNetRunExtensions.so]",
+        "0x000000000000000f (RPATH)              Library rpath: [$ORIGIN]"
+      ]
+    }
+  ]
+}

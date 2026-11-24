@@ -1,0 +1,242 @@
+{
+  "qnn_version": "2.48.0.260626",
+  "host": "aarch64-oe-linux-gcc11.2",
+  "source": "Qualcomm QNN SDK 2.48.0.260626",
+  "files": [
+    {
+      "path": "include/QNN/HTP/QnnHtpCommon.h",
+      "bytes": 3888,
+      "sha256": "78823f60b058ccbc21ef22bd2703646cce2ced61d14f09f5dc7ddf22e2bc7c2c"
+    },
+    {
+      "path": "include/QNN/HTP/QnnHtpDevice.h",
+      "bytes": 4104,
+      "sha256": "2ce36fc976f5aae7daf9c5696b61cf4748030f120514c9aefe0b531f23b903ef"
+    },
+    {
+      "path": "include/QNN/HTP/QnnHtpDeviceConfigShared.h",
+      "bytes": 2879,
+      "sha256": "c6a83ca8a88c18a24b794cdcb3e9ec33fd1fa946320c823e4fe0d777004e1a1c"
+    },
+    {
+      "path": "include/QNN/HTP/QnnHtpMem.h",
+      "bytes": 2572,
+      "sha256": "5a7c54ea0451cc78de9ccc71df22f492544251f5398bf2f94678f4eec9a0d0be"
+    },
+    {
+      "path": "include/QNN/HTP/QnnHtpPerfInfrastructure.h",
+      "bytes": 31895,
+      "sha256": "95fd440143ce8c1ac47fff3e3bc520565793f4d787f4cb914d56d623cdbc990a"
+    },
+    {
+      "path": "include/QNN/QnnBackend.h",
+      "bytes": 18040,
+      "sha256": "e6830dc4e5d00691cc42c2f09795d5c21c7a918e16573a83dabafd2b4d5f37c1"
+    },
+    {
+      "path": "include/QNN/QnnCommon.h",
+      "bytes": 7976,
+      "sha256": "bc1fccfafd95afbc7898229123dab82424803086c7e38fee83b7484aa2d78283"
+    },
+    {
+      "path": "include/QNN/QnnContext.h",
+      "bytes": 75889,
+      "sha256": "999f133346e8b40b091adadf412802aa4dc9f165bec67384a4f4101d55429832"
+    },
+    {
+      "path": "include/QNN/QnnDevice.h",
+      "bytes": 17732,
+      "sha256": "84dda3e194a6f700e9d27ece2ec357dc96c8e56b4ea9ceb0e2b9e542bb20bf20"
+    },
+    {
+      "path": "include/QNN/QnnError.h",
+      "bytes": 4711,
+      "sha256": "0ac4a282886b24457090fac0e4198601fccd1166611b8d9bc0d3bed74032e7eb"
+    },
+    {
+      "path": "include/QNN/QnnGlobalConfig.h",
+      "bytes": 2494,
+      "sha256": "6a057b4e71ccf76e2c1dbd4b65341e2373feeb6739b602e05e96c4feca8e5a1a"
+    },
+    {
+      "path": "include/QNN/QnnGraph.h",
+      "bytes": 47934,
+      "sha256": "82b74873514bfa937f3bf888529c457829791e8ba8600374b2ba160edf32c8dd"
+    },
+    {
+      "path": "include/QNN/QnnInterface.h",
+      "bytes": 31869,
+      "sha256": "1180370397ab6b98291d9de57611bea37941599d0d6e8cd71566ece8f30934a7"
+    },
+    {
+      "path": "include/QNN/QnnLog.h",
+      "bytes": 5929,
+      "sha256": "fa4691cf9dc20b6013c8eab6e906f85a15eea41bb95ce734503ca8ce500a5ad2"
+    },
+    {
+      "path": "include/QNN/QnnMem.h",
+      "bytes": 11532,
+      "sha256": "fa2164a9e60f1fec996ec04df2682d7a96587c8697abead8a45ac2d9b4b1c617"
+    },
+    {
+      "path": "include/QNN/QnnOpDef.h",
+      "bytes": 34841,
+      "sha256": "50f0e9358fd002869c2b74cf38118b1d30ad34ac76a69b48bf2cdfbb1cba4444"
+    },
+    {
+      "path": "include/QNN/QnnOpPackage.h",
+      "bytes": 24410,
+      "sha256": "f07aae269872c8073d0966df9935af6e5e4169c7d13618368565195fd3ea1d0d"
+    },
+    {
+      "path": "include/QNN/QnnProfile.h",
+      "bytes": 21864,
+      "sha256": "0aff7acd395485a8190c8dc68727e05b2fbc6d0cce003911a5e71f7e6533dcb7"
+    },
+    {
+      "path": "include/QNN/QnnProperty.h",
+      "bytes": 35967,
+      "sha256": "7a770c7ab42bbc1e3a6e02b8789e56bb128cb6ec97c84568af5f5b934b512aa3"
+    },
+    {
+      "path": "include/QNN/QnnSdkBuildId.h",
+      "bytes": 692,
+      "sha256": "b73f0c57b67bab25227e84cc635631ffdc779c323b126bad689e43a819a9b00a"
+    },
+    {
+      "path": "include/QNN/QnnSignal.h",
+      "bytes": 9077,
+      "sha256": "0033ff4c0939b85115be64e1e126b8d3b184146e6e912b9cd4d1ebfce689b9b3"
+    },
+    {
+      "path": "include/QNN/QnnTensor.h",
+      "bytes": 11343,
+      "sha256": "44cb3bbba83ca522b3c2b02be725b0ad8d9d4973f08ed8a0972fef7abd05b254"
+    },
+    {
+      "path": "include/QNN/QnnTypes.h",
+      "bytes": 76201,
+      "sha256": "4a0ba53b63b5ae8026f12cb2e9f8e4c276f3a772c09654049b01eb5f22e1b1cc"
+    },
+    {
+      "path": "include/QNN/System/QnnSystemCommon.h",
+      "bytes": 2908,
+      "sha256": "94d5c3ca7e77cb1c9819fd68f6897d16fa1fc8e52cc7cc58de621c907b0216c4"
+    },
+    {
+      "path": "include/QNN/System/QnnSystemContext.h",
+      "bytes": 22631,
+      "sha256": "47cf78fcf4514eddf625b5ecb9d9499ace070c960127974f05d0ea228158f835"
+    },
+    {
+      "path": "include/QNN/System/QnnSystemDlc.h",
+      "bytes": 22067,
+      "sha256": "352184eaf5e33bd9558b4465bde7f146bd89d66f202c1d05307e0b83567fe155"
+    },
+    {
+      "path": "include/QNN/System/QnnSystemInterface.h",
+      "bytes": 17772,
+      "sha256": "715aa7e3a699088a6118bbcd355a796a421e00414ecd60fbe49e41ae01529f4b"
+    },
+    {
+      "path": "include/QNN/System/QnnSystemLog.h",
+      "bytes": 3465,
+      "sha256": "50a12f15a0d8f4d10555ef05cac1313339a262f12df313d8a1b05a33a8872ec2"
+    },
+    {
+      "path": "include/QNN/System/QnnSystemProfile.h",
+      "bytes": 10945,
+      "sha256": "feb494b3da50b4cb4a7dd0537dfe604016321c05026f33e7f4acba9e35dd0ad3"
+    },
+    {
+      "path": "include/QNN/System/QnnSystemTensor.h",
+      "bytes": 2706,
+      "sha256": "398712e0ff6cb9254d1988b935d2ff1665797897143e4bd044d44e009c6f944e"
+    },
+    {
+      "path": "runtime/LICENSE.pdf",
+      "bytes": 147577,
+      "sha256": "ec1dccfdcba5c6e64126e84199b8362bf4999107bfa567ebe831dbb4c461692b"
+    },
+    {
+      "path": "runtime/NOTICE.txt",
+      "bytes": 130445,
+      "sha256": "0c5e8aad3506d0ab881cabaf0dae8de64e1784dc1ee6c873caf24a78fbf01924"
+    },
+    {
+      "path": "runtime/QNN_NOTICE.txt",
+      "bytes": 130445,
+      "sha256": "0c5e8aad3506d0ab881cabaf0dae8de64e1784dc1ee6c873caf24a78fbf01924"
+    },
+    {
+      "path": "runtime/QNN_README.txt",
+      "bytes": 1346,
+      "sha256": "de04c22b9ae9df70ebdbad878e6004abf249e84772bf4ef90681adc7545b739b"
+    },
+    {
+      "path": "runtime/dsp/v68/libQnnHtpV68Skel.so",
+      "bytes": 10240924,
+      "sha256": "c479454dc21dc1ee2995aaf922b37882684306f864259ea3c582aa2cfb2f81ca"
+    },
+    {
+      "path": "runtime/dsp/v73/libQnnHtpV73Skel.so",
+      "bytes": 11531512,
+      "sha256": "561d69a9cd131918cb8e0a0e34aafd0e94b3571b10317b0ee478dd137c74bc8c"
+    },
+    {
+      "path": "runtime/dsp/v75/libQnnHtpV75Skel.so",
+      "bytes": 11535612,
+      "sha256": "cd7a66b593e931cb542da2551e245dad22fdd73bb6caa7d6e2dd818f9aaa55dd"
+    },
+    {
+      "path": "runtime/dsp/v81/libQnnHtpV81Skel.so",
+      "bytes": 12610736,
+      "sha256": "87e6463b4b4441eedb1b2ae889443510249eae4d6533278d3a5c798b8eea25d1"
+    },
+    {
+      "path": "runtime/host/libQnnHtp.so",
+      "bytes": 4398216,
+      "sha256": "e39833db75eb779a966fea65f835c32bcb2cfee4e87c41db8bbffab2f5a9a748"
+    },
+    {
+      "path": "runtime/host/libQnnHtpV68Stub.so",
+      "bytes": 477256,
+      "sha256": "4d12dc9715e3cf59055eb8c93a005a8b62fd78618a9677e3f0609e689d373296"
+    },
+    {
+      "path": "runtime/host/libQnnHtpV73Stub.so",
+      "bytes": 485448,
+      "sha256": "1397c6720c1c680e99675ac1f82bb7d2f5a3ce06751affd9be91dbd07bad8aa4"
+    },
+    {
+      "path": "runtime/host/libQnnHtpV75Stub.so",
+      "bytes": 485448,
+      "sha256": "cebb3ddeee36e52b682fe9a58a7d0d7a32a4834767834a1192551a276016f983"
+    },
+    {
+      "path": "runtime/host/libQnnHtpV81Stub.so",
+      "bytes": 501832,
+      "sha256": "9e6ef721699de2a65755d86471a595e1a3d413167b5174379f081b654ce1667c"
+    },
+    {
+      "path": "runtime/host/libQnnSystem.so",
+      "bytes": 5455128,
+      "sha256": "961c456c791786217f5cd298fb983f1569c5ee3e6e2e21e0bea07ba6dfc4f78d"
+    },
+    {
+      "path": "runtime/inventory.json",
+      "bytes": 7891,
+      "sha256": "f76fabeac0f4c8caa72e76892aa73b5f31dcd46c19254704fa45649f868d097d"
+    },
+    {
+      "path": "runtime/sdk.yaml",
+      "bytes": 975,
+      "sha256": "102a8b8a5e186660a352dfb0ac26c3373688fe7c62852fba675b5ea0c16563a6"
+    },
+    {
+      "path": "runtime/host/libQnnHtpNetRunExtensions.so",
+      "bytes": 858208,
+      "sha256": "b63b896fb2096b496e37bc4f90bf5eae7142a12257beb7437df0203ece873939"
+    }
+  ]
+}

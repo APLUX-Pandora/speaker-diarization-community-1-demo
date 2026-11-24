@@ -1,0 +1,27 @@
+Native SDK third-party notices
+
+The SDK incorporates adaptations from pyannote.audio 4.0.0 (MIT), with VBx portions under Apache-2.0.
+Source: https://github.com/pyannote/pyannote-audio/tree/4.0.0
+Other adapted/bundled components:
+- PyTorch v2.8.0, BSD-style terms: frontend reduction ordering.
+- PocketFFT 0fa0ef591e38c2758e3184c6c23e497b9f732ffa, BSD-style terms: FFT.
+- SLEEF 5a1d179df9cf652951b59010a2d2075372d67f68, Boost Software License 1.0: scalar logarithm helpers.
+  Copyright Naoki Shibata and contributors 2010 - 2024.
+- SciPy v1.15.3, BSD-style terms: assignment and clustering routines.
+  Rectangular assignment implementation author: PM Larsen.
+- NumPy v2.2.6, BSD-style terms: scalar sorting/reduction behavior.
+  Original numarray sorting code by Charles R. Harris.
+- scikit-learn, BSD 3-Clause: clustering routines.
+- nlohmann/json v3.12.0, MIT: JSON parsing.
+
+Retained full texts and original copyrights are in sdk/lib/LICENSES/. Adaptations include
+native integration and arithmetic-order compatibility. Upstream portions retain
+their original rights; Pandora terms apply only to applicable APLUX-owned rights.
+The bundled Qualcomm QNN runtime retains its license in sdk/lib/qnn248/LICENSE.pdf
+and its notices in sdk/lib/qnn248/NOTICE.txt. LMS, drivers, model weights and
+Python dependencies have separate terms. The OpenSSL notice is in sdk/lib/LICENSES/.
+
+Pandora Runtime is distributed as an Apache-2.0 wheel with its license and notice.
+
+Meeting media: AMI Consortium, CC BY 4.0; see docs/MEDIA_ATTRIBUTION.md.
+Audio8 ASR Infinite is separately provisioned and remains separately licensed.

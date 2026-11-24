@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77", "wheel>=0.46"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pandora-speaker-diarization-community-1"
+version = "1.0.0"
+description = "Speaker Diarization Community 1 SDK with matched Linux AArch64 inference library"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = "Apache-2.0 AND MIT AND BSD-3-Clause AND BSL-1.0 AND LicenseRef-Pandora-Model-SDK AND LicenseRef-Qualcomm-QNN"
+license-files = [
+    "python/LICENSE",
+    "lib/LICENSE",
+    "lib/THIRD_PARTY_NOTICES.txt",
+    "lib/LICENSES/*",
+    "lib/qnn248/LICENSE.pdf",
+    "lib/qnn248/NOTICE.txt",
+]
+dependencies = ["pandora-runtime>=1.0.2,<2", "numpy>=1.22", "scipy>=1.8", "soundfile>=0.12"]
+
+[project.urls]
+Repository = "https://github.com/APLUX-Pandora/speaker-diarization-community-1-demo"
+
+[tool.setuptools]
+package-dir = {"" = "python"}
+packages = ["pandora_speaker_diarization_community_1"]
+include-package-data = false

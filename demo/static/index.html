@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Who is speaking? · Pandora</title>
+  <link rel="icon" type="image/svg+xml" href="/static/pandora-mark.svg">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <h1>Who is speaking?</h1><span class="header-note">Full-recording speaker diarization.</span>
+  <div class="brand"><img class="logo" src="/static/logo.png" alt="APLUX"><span class="divider"></span><img class="mark" src="/static/pandora-mark.svg" alt=""><span>Pandora</span></div>
+</header>
+<main>
+  <section class="toolbar" aria-label="Meeting selection">
+    <label class="sr-only" for="recording">Meeting</label><select id="recording"><option>Loading meetings…</option></select>
+    <input type="file" id="upload" accept=".mp4,.wav,.flac,.ogg" hidden>
+    <button id="uploadButton" class="quiet">Upload file</button>
+    <span id="status" role="status">Ready to analyze</span>
+    <button id="detailsButton" class="quiet" aria-label="Open details">Details</button>
+    <button id="analyze" class="primary" disabled>Analyze full recording</button>
+  </section>
+  <section class="workflow" aria-label="Offline analysis workflow">
+    <span class="offline-label">OFFLINE ANALYSIS</span>
+    <span id="analysisStep" class="workflow-step current"><b id="analysisMark">1</b><span>Analyze full recording<small id="analysisStepNote">Playback waits for completion</small></span></span>
+    <span class="workflow-arrow" aria-hidden="true">→</span>
+    <span id="replayStep" class="workflow-step"><b>2</b><span>Replay results<small>Labels generated before playback</small></span></span>
+  </section>
+  <p id="notice" role="alert" hidden></p>
+  <section class="view">
+    <div class="screen">
+      <video id="player" preload="metadata" playsinline aria-label="Meeting playback"></video>
+      <div id="audioBackdrop" class="audio-backdrop" hidden><span>♫</span><strong>Audio recording</strong><p>The timeline follows this recording's sound.</p></div>
+      <div id="screenOverlay" class="screen-overlay"><div class="overlay-card"><span class="step" id="overlayStep">1</span><h2 id="overlayTitle">First, analyze the meeting</h2><p id="overlayText">Then play the video to see who speaks when.</p><progress id="progress" max="100" value="0" hidden aria-label="Analysis progress"></progress><span id="stageCount"></span></div></div>
+      <div id="videoBadge" class="video-badge" hidden></div>
+    </div>
+    <aside>
+      <div class="speaker-top"><span class="eyebrow">PLAYBACK POSITION</span><span id="position">00:00</span></div>
+      <div class="current-speaker" id="currentSpeaker" aria-live="polite"><span class="voice-symbol" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><h2 id="activeLabel">Waiting for analysis</h2><p id="activeHint">Speaker labels appear after the whole recording is analyzed.</p></div>
+      <div class="participants-title"><span>Speakers in this meeting</span><span id="speakerCount">—</span></div>
+      <div id="speakers" class="speaker-list"><p class="muted">Analyze the meeting to reveal its speakers.</p></div>
+      <p class="identity-note">IDs distinguish voices within this recording.</p>
+    </aside>
+  </section>
+  <section class="timeline-panel" aria-label="Speaker timeline">
+    <div class="timeline-title"><h2>Who spoke when</h2><p id="timelineHint">Analyze first, then click a colored segment to replay.</p><span id="duration"></span></div>
+    <div id="timelineEmpty">Your speaker timeline will appear here.</div>
+    <div id="timeline" hidden><div id="ruler" class="ruler"></div><div id="tracks"></div><div id="playhead" class="playhead"></div></div>
+  </section>
+  <footer><span id="sourceCredit"></span><span id="analysisInfo">Complete recording → analysis → replay</span></footer>
+</main>
+<dialog id="details">
+  <div class="dialog-title"><h2>Recording details</h2><button id="closeDetails" class="quiet" aria-label="Close details">×</button></div>
+  <p id="sourceMeta"></p><p id="fullCredit"></p>
+  <p>Analyze the complete recording, then play or seek using the video controls. Click a colored timeline segment to replay that turn. Several speakers may appear together during overlapping speech.</p>
+  <p>Speaker IDs are predictions from the audio. They are not names or face recognition, and do not identify people across recordings.</p>
+  <label class="mode-setting">Timeline <select id="mode"><option value="standard">All speakers (includes overlap)</option><option value="exclusive">One speaker at a time</option></select></label>
+  <div class="exports"><a id="jsonExport" aria-disabled="true">Download JSON</a><a id="rttmExport" aria-disabled="true">Download RTTM</a></div>
+  <p class="small">Upload MP4 (H.264 / AAC), WAV, FLAC or OGG: up to 200 MB and 30 minutes. Video audio is decoded locally; analysis uses mono 16 kHz audio. Files and results stay on this device. One meeting is analyzed at a time.</p>
+</dialog>
+<script src="/static/app.js" defer></script>
+</body>
+</html>

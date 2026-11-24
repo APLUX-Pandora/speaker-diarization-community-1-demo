@@ -1,0 +1,40 @@
+{
+  "schema": "meeting-external-dependencies-v1",
+  "asr": {
+    "repository": "https://github.com/APLUX-Pandora/audio8-asr-infinite-demo.git",
+    "sdk_tag": "v0.9.0",
+    "consumer_revision": "0e00630ae38ff04d52579e195dba8fb3c7ee0e91",
+    "model_repository": "APLUX-Pandora/Audio8-ASR-Infinite-160ms",
+    "model_revision": "a3f645da5a4ab0583b4b1376ff76c6f56b91426f",
+    "model_folder": "targets/qcs8550_qnn248",
+    "files": {
+      "sdk/lib/libaudio8_asr.so": "f2c54753801d6d559d546e7a8638b0939bf4afa83f6e3f96818856775168c8be",
+      "sdk/pyproject.toml": "54699e15d2e3d9d15d70f97e298476d5aaf728e651a777a4c17bee8926b80c29",
+      "sdk/setup.py": "9ea633c8ee274a0cae54db6e0323714edf2c840f884d4bbb1b8769f9a8745722",
+      "sdk/MANIFEST.in": "3e50ed0411d1dc57ea18d73b40427e4127f93bc6ec96467c2f3381af45d4c1f2",
+      "sdk/native-library.json": "aaffbd71ae2d71225be31f09262231ec241989b97cd94c199088063f375d17f8",
+      "sdk/python/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "demo/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "demo/demo_server.py": "df23ca11ab10d02028889fd467b8d62a82603040d830bfd81c5ad386e5c946ba",
+      "demo/vad_gate.py": "44e46280e1139af2b68133172e9c38e9ba3edddd077b4f93172fd859d259479a",
+      "demo/reset_policy.py": "f372c0b11cab99e4bb5443e4efa117b02be694b3f8e83b1917d2088dad3de3ba",
+      "demo/model_package_check.py": "1addd0bb54f7ad17c3bda2bac62ff24ee9377bcaf0bbcc59a33be0fe5d6d163f",
+      "demo/hotword_settings.py": "4ffe31284c3d8d2205955545c819b6a9db63cc5ca4d80dcea2ab554a9bcb62f3",
+      "demo/static/index.html": "95aa8c66a06bb958041f910668a3f5fdb53cb10fb597eff207e4fc4290d9326c",
+      "demo/static/pcm-worklet.js": "bed78c4bb6ea5650c968d2a66168440063866c80be5494baf259c11c03532f70",
+      "demo/assets/silero_vad.onnx": "1a153a22f4509e292a94e67d6f9b85e8deb25b4988682b7e174c65279d8788e3",
+      "demo/assets/README.md": "4da17ab4871f20e4c95db18ec02e70865dc49a81656fd32cb6cbe9ab6c6db41d",
+      "sdk/python/audio8_asr/_package.py": "7bae344c01ce6127c883fd9d2a9aac192400dd1be4daa7e41abd84a65ff5f014",
+      "sdk/python/audio8_asr/__init__.py": "d076fc2a8b2a30c077bb48e7e8afc8b843db2f2d7672c5982551f0d39194c395",
+      "sdk/python/audio8_asr/types.py": "43687e1a47b26a34775729b8a5cd7b834f54604aabfb1203c81ccd40ab3c582e",
+      "sdk/python/audio8_asr/_native.py": "077050ed58e619ba64bc0b408288ed20ac2ed1bb3cd229f7e71cfb853bbb5894",
+      "sdk/python/audio8_asr/audio.py": "b527ba5bbc19b4a7375f0faf904f1c7577e11c14e59dfedf7d0622a3f514abac",
+      "sdk/python/audio8_asr/runtime.py": "a51ccabc02f6edd032497a3eba0bafd3c786f7aa63017e8bc0ea2dac6fa170ea"
+    },
+    "bundled": false,
+    "risk_acceptance_inherited": false,
+    "qualification": "Component SDK0.9.0 CPU affinity is formally qualified; this changed composition requires its own integration/lifecycle qualification. Supplier risk acceptance is not inherited.",
+    "path": "components/asr",
+    "model_format": "models.json format_version1"
+  }
+}

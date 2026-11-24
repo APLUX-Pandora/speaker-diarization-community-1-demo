@@ -1,0 +1,7 @@
+include native-library.json
+recursive-include lib *
+
+include pyproject.toml setup.py README.md PYTHON_API.md SHA256SUMS
+recursive-include include *.h
+recursive-include python *.py LICENSE
+include wheels/pandora_runtime-*.whl

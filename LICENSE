@@ -1,0 +1,13 @@
+Licensing index for Speaker Diarization 01
+
+Application code, examples, public C interface and Python bindings authored by
+APLUX are designated Apache-2.0. See LICENSES/Apache-2.0.txt.
+
+APLUX proprietary contributions to the native SDK are subject to the unmodified
+Pandora agreement in LICENSES/Pandora-Model-SDK.zh-CN.txt and its English version.
+These terms apply only to rights APLUX owns; they do not replace third-party
+licenses or restrict rights already granted by those licenses.
+
+Third-party source and adaptations retain their own licenses. See NOTICE,
+LICENSING.md and sdk/third_party. Model weights, parameter assets, media and
+external vendor runtimes are not covered by a blanket repository license.
